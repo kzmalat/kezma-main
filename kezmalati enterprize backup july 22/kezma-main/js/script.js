@@ -1,0 +1,70 @@
+
+/* ================= STATISTICS COUNTER ================= */
+
+const counters = document.querySelectorAll(".counter");
+
+const startCounter = () => {
+
+    counters.forEach(counter => {
+
+        const target = +counter.getAttribute("data-target");
+        let count = 0;
+
+        const updateCounter = () => {
+
+            const increment = Math.ceil(target / 100);
+
+            if (count < target) {
+
+                count += increment;
+
+                if (count > target) count = target;
+
+                counter.innerText = count.toLocaleString();
+
+                setTimeout(updateCounter, 20);
+
+            }
+
+        };
+
+        updateCounter();
+
+    });
+
+};
+
+const statsSection = document.querySelector(".stats-section");
+
+let counterStarted = false;
+
+window.addEventListener("scroll", () => {
+
+    if (!statsSection || counterStarted) return;
+
+    const sectionTop = statsSection.getBoundingClientRect().top;
+
+    if (sectionTop < window.innerHeight - 100) {
+
+        counterStarted = true;
+
+        startCounter();
+
+    }
+
+});
+const navbar = document.querySelector(".navbar");
+
+window.addEventListener("scroll", function () {
+
+    if (window.scrollY > 50) {
+
+        navbar.classList.add("scrolled");
+
+    } else {
+
+        navbar.classList.remove("scrolled");
+
+    }
+
+});
