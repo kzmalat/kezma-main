@@ -1,4 +1,3 @@
-
 /* ================= STATISTICS COUNTER ================= */
 
 const counters = document.querySelectorAll(".counter");
@@ -38,7 +37,7 @@ const statsSection = document.querySelector(".stats-section");
 
 let counterStarted = false;
 
-window.addEventListener("scroll", () => {
+function checkStatsInView() {
 
     if (!statsSection || counterStarted) return;
 
@@ -52,4 +51,7 @@ window.addEventListener("scroll", () => {
 
     }
 
-});
+}
+
+window.addEventListener("scroll", checkStatsInView);
+window.addEventListener("load", checkStatsInView); // NEW: also check on initial load
