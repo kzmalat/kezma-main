@@ -186,6 +186,8 @@ transform:translateY(-3px);
     align-items:center;
 }
 
+}
+
 /* ================= HAMBURGER MENU ================= */
 
 .hamburger{
@@ -260,8 +262,6 @@ transform:translateY(-3px);
 }
 
 }
-}
-
 
 /* ================= ABOUT SECTION ================= */
 
@@ -1137,12 +1137,13 @@ transform:translateY(-3px);
 }
 
 }
+
 /* ================= BACK TO TOP BUTTON ================= */
 
 #backToTop{
     position:fixed;
-    bottom:28px;
-    right:100px;
+    top:100px;
+    right:28px;
     width:50px;
     height:50px;
     background:#0B1F3A;
@@ -1169,8 +1170,8 @@ transform:translateY(-3px);
 
 @media(max-width:768px){
 #backToTop{
-    right:85px;
-    bottom:20px;
+    top:85px;
+    right:20px;
     width:44px;
     height:44px;
     font-size:18px;
