@@ -1223,3 +1223,18 @@ transform:translateY(-3px);
 .nav-links a.active-link{
     color:#D4AF37;
 }
+/* ================= GALLERY LOAD MORE ================= */
+
+.gallery-extra{
+    display:none;
+}
+
+.gallery-extra.show{
+    display:block;
+}
+
+#loadMoreBtn{
+    border:none;
+    cursor:pointer;
+    margin-right:15px;
+}
