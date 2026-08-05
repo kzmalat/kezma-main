@@ -18,8 +18,8 @@
 const products = [
   {
     id: 1,
-    name: "Premium Steel Security Door",
-    price: 185000,
+    name: "Hamour Soundproof Door (Turkish)",
+    price: 2500000,
     image: "images/door3.jpg",
     inStock: true,
     dateAdded: "2026-01-15",
@@ -28,8 +28,8 @@ const products = [
   },
   {
     id: 2,
-    name: "Luxury Security Door",
-    price: 265000,
+    name: "Soundproof Door (Turkish) with TV Digital Smart Lock",
+    price: 1200000,
     image: "images/door4.jpg",
     inStock: true,
     dateAdded: "2026-02-10",
@@ -38,8 +38,8 @@ const products = [
   },
   {
     id: 3,
-    name: "Commercial Security Door",
-    price: 310000,
+    name: "Italian Cast Door – Pure Security Door",
+    price: 870000,
     image: "images/door20.jpg",
     inStock: true,
     dateAdded: "2025-11-20",
@@ -48,8 +48,8 @@ const products = [
   },
   {
     id: 4,
-    name: "Modern Designer Door",
-    price: 245000,
+    name: "Smart and Stylish Design (Bulletproof Door)",
+    price: 6300000,
     image: "images/hero-door1.jpg",
     inStock: false,
     dateAdded: "2026-03-01",
@@ -59,7 +59,7 @@ const products = [
   {
     id: 5,
     name: "Armored Security Door",
-    price: 395000,
+    price: 7800000,
     image: "images/hero-door3.jpg",
     inStock: true,
     dateAdded: "2025-12-05",
@@ -69,7 +69,7 @@ const products = [
   {
     id: 6,
     name: "Executive Security Door",
-    price: 350000,
+    price: 7800000,
     image: "images/hero-door5.jpg",
     inStock: true,
     dateAdded: "2026-04-18",
@@ -78,9 +78,9 @@ const products = [
   },
   {
     id: 7,
-    name: "Classic Panel Security Door",
-    price: 165000,
-    image: "images/door9.jpg",
+    name: "Executive Steel Door",
+    price: 170000,
+    image: "images/door19.jpg",
     inStock: true,
     dateAdded: "2025-10-12",
     salesRank: 8,
@@ -88,8 +88,8 @@ const products = [
   },
   {
     id: 8,
-    name: "Estate Gate & Security Door",
-    price: 420000,
+    name: "Flush Door Wooden Grade A",
+    price: 150000,
     image: "images/door14.jpg",
     inStock: false,
     dateAdded: "2026-05-22",
