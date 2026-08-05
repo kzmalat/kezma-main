@@ -30,7 +30,7 @@ const products = [
     id: 2,
     name: "Soundproof Door (Turkish) with TV Digital Smart Lock",
     price: 1200000,
-    image: "images/door49.jpg",
+    image: "images/door4.jpg",
     inStock: true,
     dateAdded: "2026-02-10",
     salesRank: 4,
