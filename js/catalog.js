@@ -30,7 +30,7 @@ const products = [
     id: 2,
     name: "Soundproof Door (Turkish) with TV Digital Smart Lock",
     price: 1200000,
-    image: "images/door4.jpg",
+    image: "images/door49.jpg",
     inStock: true,
     dateAdded: "2026-02-10",
     salesRank: 4,
@@ -138,12 +138,12 @@ document.addEventListener("DOMContentLoaded", function () {
     const priceVal = priceFilter.value;
     if (priceVal === "under-200") {
       list = list.filter(p => p.price < 200000);
-    } else if (priceVal === "200-300") {
-      list = list.filter(p => p.price >= 200000 && p.price <= 300000);
-    } else if (priceVal === "300-400") {
-      list = list.filter(p => p.price > 300000 && p.price <= 400000);
-    } else if (priceVal === "over-400") {
-      list = list.filter(p => p.price > 400000);
+    } else if (priceVal === "200-1000") {
+      list = list.filter(p => p.price >= 200000 && p.price <= 1000000);
+    } else if (priceVal === "1000-5000") {
+      list = list.filter(p => p.price > 1000000 && p.price <= 5000000);
+    } else if (priceVal === "over-5000") {
+      list = list.filter(p => p.price > 5000000);
     }
 
     // Sorting
